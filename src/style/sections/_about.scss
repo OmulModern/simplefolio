@@ -37,6 +37,10 @@
       }
     }
 
+    &__image .rounded {
+      border-radius: 15% !important;
+    }
+
     &__info {
       display: flex;
       height: 100%;
