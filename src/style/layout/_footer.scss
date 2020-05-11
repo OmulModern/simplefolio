@@ -17,15 +17,16 @@
     font-size: 1.3rem;
 
     a {
-      color: darken(white, 50%);
+      color: darken(white, 25%);
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
-      background-color: $dark-grey;
+      // background-color: $dark-grey;
+      text-shadow: 1px 0px 15px rgba(255, 255, 255, 0.8);
 
       &:hover,
       &:active {
-        color: $primary-color;
+        color: #3eda4e;
         -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
       }
