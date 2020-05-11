@@ -18,6 +18,11 @@
     // -webkit-clip-path: none;
   }
 
+  .grid-for-contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
   .contact-wrapper {
     margin-top: 3.2rem;
     padding: 0 2rem;
