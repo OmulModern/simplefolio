@@ -14,8 +14,8 @@ clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
 
   @include respond(tab-land) {
     height: 100%;
-    -webkit-clip-path: none;
-    clip-path: none;
+    // -webkit-clip-path: none;
+    // clip-path: none;
   }
 
   .about-wrapper {
