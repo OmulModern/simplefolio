@@ -10,10 +10,13 @@
   }
 
   .project-wrapper {
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
 
     @include respond(phone) {
       margin-bottom: 0rem;
+    }
+    @include respond(custom-min) {
+      margin-bottom: 15rem;
     }
 
     .row {
