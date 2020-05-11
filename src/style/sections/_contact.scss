@@ -21,6 +21,30 @@
   .grid-for-contact {
     display: grid;
     grid-template-columns: 50% 50%;
+
+    .contact-wrapper:first-child {
+      padding-bottom: 2rem;
+      &::after {
+        @include respond(tab-port-sm) {
+          content: " ";
+          display: block;
+          border: 0;
+          width: 35rem;
+          height: 1px; 
+          background-image: -webkit-linear-gradient(left, transparent, #8c8b8b, transparent);
+          background-image: -moz-linear-gradient(left, transparent, #8c8b8b, transparent);
+          background-image: -ms-linear-gradient(left, transparent, #8c8b8b, transparent);
+          background-image: -o-linear-gradient(left, transparent, #8c8b8b, transparent);
+          margin: 0 auto;
+          margin-top: 5rem;
+        }
+      }
+    }
+
+    @include respond(tab-port-sm) {
+      display: block;
+
+    }
   }
 
   .contact-wrapper {
