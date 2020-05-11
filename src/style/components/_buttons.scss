@@ -68,11 +68,41 @@
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: $newcolor;
+      -webkit-text-fill-color: $newcolor
     }
 
     &::after {
       width: 100%;
+    }
+  }
+}
+
+.hero-cta {
+  .main-button {
+
+    -webkit-text-fill-color: $white-color;
+    color: $white-color;
+    border: none;
+    border-radius: 2px;
+    padding: 1rem 1.8rem;
+    background: linear-gradient(
+      135deg, 
+      #C33764 0%, 
+      #1D2671 100%
+    );
+
+    &::after {
+      background-image: none;
+      border-radius: 20px;
+      // Responsive Button hero style
+      @include respond(phone) {
+        background-image: none;
+      }
+    }
+    
+    &:hover {
+      transform: translateY(-.2rem);
+      box-shadow: 0 1rem 1rem rgba(0,0,0, 0.5);
     }
   }
 }
