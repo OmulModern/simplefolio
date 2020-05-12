@@ -28,7 +28,7 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
   }
   // Table small
   @if $breakpoint == tab-port-sm {
-    @media (max-width: 48em) {
+    @media (max-width: 47.96em) {
       @content;
     } //768px
   }
