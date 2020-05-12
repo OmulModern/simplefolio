@@ -23,9 +23,10 @@ initTilt();
 
 var typed = new Typed('.typed', {
   strings: ["web developer.", "multidisciplinar.", "vizionar." , "vegan."],
-  typeSpeed: 100,
+  typeSpeed: 60,
   loop: true,
-  startDelay: 1100,
+  startDelay: 300,
   showCursor: false,
-  contentType: null
+  contentType: null,
+  backSpeed: 30,
 });

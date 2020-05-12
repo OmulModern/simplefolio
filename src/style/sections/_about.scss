@@ -39,6 +39,10 @@
 
     &__image .rounded {
       // border-radius: 15% !important;
+      @include respond(tab-port-sm) {
+        border-radius: 50% !important;
+        width: 150px !important;
+      }
     }
 
     &__info {
@@ -53,12 +57,24 @@
 
       &-text {
         text-align: left;
+        color: #c4c4c4;
 
         @include respond(tab-port) {
           text-align: left;
         }
         @include respond(tab-port-sm) {
           text-align: center;
+        }
+
+        .tvp-refference {
+          text-decoration: none;
+          color: #ccc;
+          border-bottom: 1px solid #bfbfbf;
+          text-shadow: 1px 0px 15px rgba(255, 255, 255, 0.8);
+          &:hover {
+            color: #3eda4e;
+            border-bottom: 1px solid #3eda4e;
+          }
         }
 
         &--important {
