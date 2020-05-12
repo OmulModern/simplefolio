@@ -23,11 +23,19 @@
       padding-bottom: 5rem;
     }
 
+    .about-wrapper-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3rem;
+    }
+
     &__image {
       display: flex;
       height: 100%;
       align-items: center;
       justify-content: center;
+      padding-bottom: 5rem;
 
       @include respond(tab-land) {
         height: 100%;
@@ -38,17 +46,19 @@
     }
 
     &__image .rounded {
-      // border-radius: 15% !important;
+      border-radius: 50% !important;
+      padding: 0.8rem;
+
       @include respond(tab-port-sm) {
-        border-radius: 50% !important;
-        width: 150px !important;
+        // border-radius: 50% !important;
+        // width: 150px !important;
       }
     }
 
     &__info {
       display: flex;
       height: 100%;
-      justify-content: center;
+      // justify-content: center;
       flex-direction: column;
 
       @include respond(tab-port-sm) {
