@@ -22,7 +22,7 @@ initSr();
 initTilt();
 
 var typed = new Typed('.typed', {
-  strings: ["visător", "vizionar.", "multidisciplinar.", "web developer.", "vegan."],
+  strings: ["web developer.", "multidisciplinar.", "vizionar." , "vegan."],
   typeSpeed: 100,
   loop: true,
   startDelay: 1100,
