@@ -10,6 +10,17 @@ a {
   font-size: $default-font-size;
 }
 
+#about .about-wrapper__info-text,
+#about .about-wrapper__info-text a {
+  font-size: 1.6rem;
+  text-align: left;
+
+  @include respond(custom-port) {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+}
+
 a,
 a:link,
 a:hover,

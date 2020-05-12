@@ -42,7 +42,7 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
   @if $breakpoint == custom-port {
     @media (max-width: 61.9375em) {
       @content;
-    }
+    } //991px
   }
   @if $breakpoint == custom-min {
     @media (min-width: 75em) {
