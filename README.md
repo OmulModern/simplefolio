@@ -1,4 +1,4 @@
-# Im learning front end development + Git and github + Terminal + Boostrap + JavaScript by playing and modifing this awesome simplefolio theme from Jacom Martinez!
+# Im learning front end development + Git and github + Terminal + Boostrap + JavaScript by playing and modifing this awesome simplefolio theme from Jacobo Martinez!
 
 
 
